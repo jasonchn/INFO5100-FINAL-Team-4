@@ -44,7 +44,7 @@ public class SearchDealer {
         for (Double sdl : sortedDistanceList){
             int i = 0;
             searchResult.add(dealerList.get(trackIndex.get(i)).getId());
-            searchResult.add(sdl+"Miles");
+            searchResult.add(sdl+" Miles");
         }
         return searchResult;
 

@@ -30,7 +30,7 @@ public class CalculateDistance {
 
             Scanner s = new Scanner(response).useDelimiter("\\A");
             result = s.hasNext() ? s.next() : "";
-            System.out.println(result);
+
 
         } catch (IOException e) {
             e.printStackTrace();

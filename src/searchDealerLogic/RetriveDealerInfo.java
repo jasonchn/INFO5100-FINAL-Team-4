@@ -5,6 +5,8 @@ import dto.Dealer;
 import java.util.ArrayList;
 import java.util.Random;
 
+import static java.lang.Math.abs;
+
 
 public class RetriveDealerInfo {
 
@@ -15,7 +17,7 @@ public class RetriveDealerInfo {
         for (int i = 0; i <= 5; i++) {
 
             Random rID = new Random();
-            int randomID = rID.nextInt();
+            int randomID = abs(rID.nextInt());
             String idString = String.valueOf(randomID);
 
             dealerObjList.add(new Dealer("Honda", "22020 Hwy 99, Edmonds, WA 98026", idString, 98026+i+10, 425222277));
