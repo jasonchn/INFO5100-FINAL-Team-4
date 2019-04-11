@@ -10,7 +10,7 @@ Method Description:
 
 Call "SearchDealer.searchDealer(integer zipcode)", the method will return an String Arraylist which in below format:
 
-{NearestDealerID1, NearestDealerDistance,SecondNearestDealerID2, DecondeNearestDealerDistance,........}
+{NearestDealerID1, NearestDealerDistance,SecondNearestDealerID2, SecondNearestDealerDistance,........}
 
 Be aware, the input parameter zipcode must be a VALID 5 digits US zipcode, random digits like 12345 will throw exception and incorrect distance data.
 
