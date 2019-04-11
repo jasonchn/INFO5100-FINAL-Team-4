@@ -1,3 +1,4 @@
+/*
 package service;
 
 public interface InventorySearcher {
@@ -7,3 +8,5 @@ public interface InventorySearcher {
 	
 	public VehicleFilters getVehicleFilters(String dealerID);
 }
+
+*/
